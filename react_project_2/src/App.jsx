@@ -4,7 +4,11 @@ function App() {
 
   return (
     <>
-      <Card/>
+      <div className="flex justify-center">
+        <Card/>
+        <Card/>
+      </div>
+      
     </>
   )
 }
